@@ -273,7 +273,11 @@ section.alt{background:var(--paper); border-top:1px solid var(--line); border-bo
 
 /* Decorative flanking photos */
 .flank-grid{display:grid; grid-template-columns:1fr 2fr 1fr; gap:24px; align-items:center;}
-@media (max-width:760px){ .flank-grid{grid-template-columns:1fr;} .flank-grid .photo-frame{display:none;} }
+@media (max-width:760px){
+  .flank-grid{display:flex; flex-wrap:wrap; justify-content:center; gap:14px;}
+  .flank-grid .photo-frame{width:130px; height:130px; aspect-ratio:1/1; order:1; border-radius:16px;}
+  .flank-grid p{order:2; width:100%; margin-top:6px;}
+}
 
 /* Contact */
 .contact-grid{display:grid; grid-template-columns:1fr 1fr; gap:48px;}
