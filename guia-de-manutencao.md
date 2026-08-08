@@ -1,4 +1,4 @@
-# Guia de manutenção do site — Animação Creche Pet e Hotel
+# Guia de manutenção do site — Animacão Creche Pet e Hotel
 
 Este guia é pra você (Pedro) conseguir fazer pequenos ajustes no site sozinho, sem precisar de terminal, Git ou conhecimento técnico. Tudo aqui usa só um editor de texto simples e o navegador.
 
@@ -29,7 +29,7 @@ Regra de ouro: **nunca renomeie `styles.css`, `main.js` ou a pasta `img`** — s
 
 1. Clique com o botão direito no arquivo `.html` que quer editar (ex: `sobre.html`).
 2. Escolha "Abrir com" → Bloco de Notas (Windows) ou TextEdit (Mac, mas aí abra como texto simples).
-3. Use Ctrl+F pra procurar o trecho de texto que aparece no site (ex: procure "A Animação chegou recentemente").
+3. Use Ctrl+F pra procurar o trecho de texto que aparece no site (ex: procure "A Animacão chegou recentemente").
 4. Edite só o texto que fica **entre as tags** (as coisas tipo `<p>` e `</p>`) — não apague as tags em si.
 5. Salve o arquivo (Ctrl+S) e feche.
 6. Abra o `index.html` no navegador pra conferir se ficou certo antes de publicar.
